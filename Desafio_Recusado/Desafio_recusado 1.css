@@ -1,0 +1,154 @@
+.tela-inicial-child {
+    position: absolute;
+    top: -116px;
+    left: -124px;
+    backdrop-filter: blur(50px);
+    border-radius: 50%;
+    background-color: rgba(226, 137, 34, 0.93);
+    width: 782px;
+    height: 241px;
+}
+.desafio {
+    position: absolute;
+    top: 45px;
+    left: 142px;
+    line-height: 100%;
+    font-weight: 800;
+    display: inline-block;
+    width: 232px;
+    height: 68px;
+}
+.tela-inicial-item {
+    position: absolute;
+    top: 910px;
+    left: 0px;
+    border-radius: 10px;
+    background-color: #d3d2d2;
+    width: 533px;
+    height: 109px;
+}
+.home-icon {
+    position: absolute;
+    top: 938px;
+    left: 26px;
+    width: 70px;
+    height: 60px;
+    overflow: hidden;
+    object-fit: contain;
+    cursor: pointer;
+}
+.historico-icon {
+    position: absolute;
+    top: 938px;
+    left: 223px;
+    width: 77px;
+    height: 60px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.usuario-icon {
+    position: absolute;
+    top: 0px;
+    left: calc(50% + 173.5px);
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+}
+.bitcoin-iconsgear-outline {
+    position: absolute;
+    top: 925px;
+    left: 420px;
+    width: 88px;
+    height: 86px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.tela-inicial-inner {
+    position: absolute;
+    top: 180px;
+    left: 32px;
+    border-radius: 20px;
+    background-color: #d9d9d9;
+    width: 472px;
+    height: 400px;
+}
+.corra-2km {
+    position: absolute;
+    top: 306px;
+    left: 95px;
+    line-height: 100%;
+    font-weight: 800;
+    display: inline-block;
+    width: 326px;
+    height: 144px;
+}
+.espere-2-horas {
+    position: absolute;
+    height: 51.88%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    line-height: 100%;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.desafio-aceitovariant2-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 30px;
+    background-color: #f40c0c;
+}
+.desafio-aceito {
+    position: absolute;
+    top: 28.32%;
+    left: 5.07%;
+    line-height: 100%;
+    font-weight: 800;
+}
+.desafio-aceitovariant2 {
+    position: absolute;
+    height: 38.57%;
+    width: 84.66%;
+    top: 61.43%;
+    right: 8.18%;
+    bottom: 0%;
+    left: 7.16%;
+}
+.property-1default {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 489px;
+    height: 293px;
+}
+.component-1 {
+    position: absolute;
+    top: 597px;
+    left: 6px;
+    border-radius: 5px;
+    border: 1px dashed rgba(151, 71, 255, 0);
+    box-sizing: border-box;
+    width: 529px;
+    height: 313px;
+    overflow: hidden;
+}
+.tela-inicial {
+    width: 100%;
+    position: relative;
+    border-radius: 4px;
+    background-color: #efeeee;
+    height: 1019px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 40px;
+    color: #000;
+    font-family: Poppins;
+}
+

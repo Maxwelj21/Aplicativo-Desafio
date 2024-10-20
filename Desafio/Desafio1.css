@@ -1,0 +1,161 @@
+.tela-inicial-child {
+    position: absolute;
+    top: -116px;
+    left: -124px;
+    backdrop-filter: blur(50px);
+    border-radius: 50%;
+    background-color: rgba(226, 137, 34, 0.93);
+    width: 782px;
+    height: 241px;
+}
+.desafio {
+    position: absolute;
+    top: 45px;
+    left: 142px;
+    line-height: 100%;
+    font-weight: 800;
+    display: inline-block;
+    width: 232px;
+    height: 68px;
+}
+.tela-inicial-item {
+    position: absolute;
+    top: 910px;
+    left: 0px;
+    border-radius: 10px;
+    background-color: #d3d2d2;
+    width: 533px;
+    height: 109px;
+}
+.home-icon {
+    position: absolute;
+    top: 938px;
+    left: 26px;
+    width: 70px;
+    height: 60px;
+    overflow: hidden;
+    object-fit: contain;
+    cursor: pointer;
+}
+.historico-icon {
+    position: absolute;
+    top: 938px;
+    left: 223px;
+    width: 77px;
+    height: 60px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.usuario-icon {
+    position: absolute;
+    top: 0px;
+    left: calc(50% + 173.5px);
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+}
+.bitcoin-iconsgear-outline {
+    position: absolute;
+    top: 925px;
+    left: 420px;
+    width: 88px;
+    height: 86px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.tela-inicial-inner {
+    position: absolute;
+    top: 180px;
+    left: 32px;
+    border-radius: 20px;
+    background-color: #d9d9d9;
+    width: 472px;
+    height: 400px;
+}
+.aqui-ficara-a {
+    position: absolute;
+    top: 647px;
+    left: 26px;
+    line-height: 100%;
+    font-weight: 800;
+    display: inline-block;
+    width: 489px;
+    height: 152px;
+}
+.assista-um-filme {
+    position: absolute;
+    top: 306px;
+    left: 95px;
+    line-height: 100%;
+    font-weight: 800;
+    display: inline-block;
+    width: 326px;
+    height: 144px;
+}
+.aceitarvariant4-child {
+    position: absolute;
+    height: 100%;
+    width: 43.16%;
+    top: 0%;
+    right: 56.84%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 30px;
+    background-color: #319f43;
+    cursor: pointer;
+}
+.aceitarvariant4-item {
+    position: absolute;
+    height: 100%;
+    width: 43.16%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 56.84%;
+    border-radius: 30px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    cursor: pointer;
+}
+.aceitar {
+    position: absolute;
+    height: 24.75%;
+    width: 21.71%;
+    top: 33.88%;
+    left: 10.72%;
+    line-height: 100%;
+    font-weight: 800;
+    display: inline-block;
+}
+.recusar {
+    position: absolute;
+    height: 24.75%;
+    width: 24.12%;
+    top: 33.88%;
+    left: 66.29%;
+    line-height: 100%;
+    font-weight: 800;
+    display: inline-block;
+}
+.aceitarvariant4 {
+    position: absolute;
+    top: 799px;
+    left: -27px;
+    width: 595px;
+    height: 80px;
+    font-size: 30px;
+}
+.tela-inicial {
+    width: 100%;
+    position: relative;
+    border-radius: 4px;
+    background-color: #efeeee;
+    height: 1019px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 40px;
+    color: #000;
+    font-family: Poppins;
+}
+

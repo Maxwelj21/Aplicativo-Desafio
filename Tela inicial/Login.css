@@ -1,0 +1,225 @@
+.acessar {
+    position: relative;
+    letter-spacing: 0.1em;
+    line-height: 100%;
+}
+.boto-acessar {
+    position: absolute;
+    top: 671px;
+    left: 62px;
+    border-radius: 50px;
+    background-color: rgba(226, 137, 34, 0.93);
+    width: 391px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.devicongoogle {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.boto-entrar-com-o-goole {
+    position: absolute;
+    top: 790px;
+    left: 62px;
+    border-radius: 50px;
+    background-color: rgba(177, 166, 152, 0.93);
+    width: 391px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+    gap: 10px;
+}
+.ou {
+    position: absolute;
+    top: 748px;
+    left: 233px;
+    font-size: 20px;
+    line-height: 100%;
+    display: inline-block;
+    width: 27px;
+}
+.vector-icon {
+    width: 20px;
+    position: relative;
+    height: 20px;
+    z-index: 0;
+}
+.vector-icon1 {
+    width: 33.33%;
+    position: absolute;
+    margin: 0 !important;
+    height: 33.33%;
+    top: 33.33%;
+    right: 33.33%;
+    bottom: 33.33%;
+    left: 33.33%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    z-index: 1;
+}
+.at-sign {
+    width: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2px;
+    box-sizing: border-box;
+    position: relative;
+    gap: 10px;
+    z-index: 0;
+}
+.digite-seu-email {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+}
+.campo-de-texto-email-child {
+    position: absolute;
+    top: 77.5px;
+    left: -0.5px;
+    border-top: 1px solid rgba(101, 101, 101, 0.88);
+    box-sizing: border-box;
+    width: 332px;
+    height: 1px;
+}
+.campo-de-texto-email {
+    width: 1545.84%;
+    position: absolute;
+    margin: 0 !important;
+    height: 100%;
+    top: 0%;
+    right: -1456.18%;
+    bottom: 0%;
+    left: 10.34%;
+    z-index: 1;
+}
+.property-1default {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 377px;
+    height: 115px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 4px 0px;
+    box-sizing: border-box;
+    gap: 10px;
+}
+.lock-icon {
+    position: absolute;
+    top: 45.5px;
+    left: 0px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+}
+.campo-de-texto-email-item {
+    position: absolute;
+    top: 78px;
+    left: 0px;
+    border-top: 1px solid rgba(101, 101, 101, 0.88);
+    box-sizing: border-box;
+    width: 332px;
+    height: 1px;
+}
+.campo-de-texto-email1 {
+    position: absolute;
+    height: 100%;
+    width: 99.34%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0.66%;
+}
+.lock-parent {
+    width: 5866.8px;
+    position: absolute;
+    margin: 0 !important;
+    top: 0px;
+    left: 0px;
+    height: 115px;
+    z-index: 0;
+}
+.digite-sua-senha {
+    position: absolute;
+    top: 155px;
+    left: 20px;
+    width: 377px;
+    height: 115px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 4px 0px;
+    box-sizing: border-box;
+}
+.dgite-seu-email {
+    position: absolute;
+    top: 247px;
+    left: 42px;
+    border-radius: 5px;
+    border: 1px dashed rgba(151, 71, 255, 0.02);
+    box-sizing: border-box;
+    width: 431px;
+    height: 290px;
+    overflow: hidden;
+}
+.login-child {
+    position: absolute;
+    top: -234px;
+    left: -169px;
+    backdrop-filter: blur(50px);
+    border-radius: 50%;
+    background-color: rgba(226, 137, 34, 0.93);
+    width: 782px;
+    height: 481px;
+}
+.entrar {
+    position: absolute;
+    top: 142px;
+    left: 90px;
+    font-size: 40px;
+    line-height: 100%;
+    font-weight: 800;
+    text-align: center;
+    display: inline-block;
+    width: 232px;
+    height: 68px;
+}
+.login {
+    width: 100%;
+    position: relative;
+    border-radius: 4px;
+    background-color: #efeeee;
+    height: 1019px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 25px;
+    color: #000;
+    font-family: Poppins;
+}
+

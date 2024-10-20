@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+  	
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Port Lligat Slab:wght@400&display=swap" />
+>
+  	
+  	
+  	
+</head>
+<body>
+  	
+  	<div class="historico">
+    		<div class="historico-child">
+    		</div>
+    		<div class="historico1">
+      			<p class="historico2">Historico</p>
+    		</div>
+    		<div class="historico-item">
+    		</div>
+    		<img class="home-icon" alt="" src="Home.svg" id="home">
+    		
+    		<img class="historico-icon" alt="" src="Historico.svg">
+    		
+    		<img class="usuario-icon" alt="" src="Usuario.svg" id="usuario">
+    		
+    		<img class="bitcoin-iconsgear-outline" alt="" src="bitcoin-icons:gear-outline.svg" id="bitcoinIconsgearOutline">
+    		
+    		<div class="property-1default-parent">
+      			<div class="property-1default" id="property1DefaultContainer">
+        				<div class="property-1default-child">
+        				</div>
+        				<div class="corra-2km">Corra 2km</div>
+      			</div>
+      			<div class="property-1variant2" id="property1Variant2Container">
+        				<div class="property-1default-child">
+        				</div>
+        				<div class="assista-um-filme">Assista um filme de comedia</div>
+      			</div>
+      			<div class="property-1variant3" id="property1Variant3Container">
+        				<div class="property-1default-child">
+        				</div>
+        				<div class="faa-um-bolo">Faça um bolo de fuba</div>
+      			</div>
+      			<div class="property-1variant4" id="property1Variant4Container">
+        				<div class="property-1default-child">
+        				</div>
+        				<div class="faa-100-agachamentos"> Faça 100 agachamentos</div>
+      			</div>
+      			<div class="property-1variant10">
+        				<div class="property-1default-child">
+        				</div>
+        				<div class="faa-100-agachamentos"> Faça 100 agachamentos</div>
+      			</div>
+      			<div class="property-1variant5">
+        				<div class="property-1default-child">
+        				</div>
+        				<div class="puxe-conversa-com"> Puxe conversa com 3 pessoas aleatorias </div>
+      			</div>
+      			<div class="property-1variant6">
+        				<div class="property-1default-child">
+        				</div>
+      			</div>
+      			<div class="property-1variant7">
+        				<div class="property-1default-child">
+        				</div>
+      			</div>
+      			<div class="property-1variant8">
+        				<div class="property-1default-child">
+        				</div>
+      			</div>
+      			<div class="property-1variant9">
+        				<div class="property-1default-child">
+        				</div>
+      			</div>
+    		</div>
+  	</div>
+  	
+  	<div id="historicoHistorico1" class="popup-overlay" style="display:none">
+    		
+    		<div class="historico-historico-1" id="popuphistoricoHistorico1">
+      			<div class="historico-historico-1-child">
+      			</div>
+      			<div class="historico-de-desafios-container">
+        				<p class="historico-de">Historico de</p>
+        				<p class="historico-de">Desafios</p>
+      			</div>
+      			<div class="historico-historico-1-item">
+      			</div>
+      			<div class="home">
+      			</div>
+      			<img class="usuario-icon1" alt="" src="Usuario.svg" id="popupusuario">
+      			
+      			<div class="historico-historico-1-inner">
+      			</div>
+      			<div class="aqui-ficara-a">Aqui ficara a descrição do que o usuario devera fazer</div>
+      			<div class="corra-2km1">Corra 2km</div>
+    		</div>
+    		
+    		
+  	</div>
+  	
+  	
+  	
+  	<script>
+    		var popupusuario = document.getElementById("popupusuario");
+    		if(popupusuario) {
+      			popupusuario.addEventListener("click", function (e) {
+        				// Add your code here
+      			});
+    		}
+    		
+    		var popuphistoricoHistorico1 = document.getElementById("popuphistoricoHistorico1");
+    		if(popuphistoricoHistorico1) {
+      			popuphistoricoHistorico1.addEventListener("click", function (e) {
+        				window.location.href = "./Historico.html"
+      			});
+    		}
+    		
+    		var home = document.getElementById("home");
+    		if(home) {
+      			home.addEventListener("click", function (e) {
+        				// Add your code here
+      			});
+    		}
+    		
+    		var usuario = document.getElementById("usuario");
+    		if(usuario) {
+      			usuario.addEventListener("click", function (e) {
+        				// Add your code here
+      			});
+    		}
+    		
+    		var bitcoinIconsgearOutline = document.getElementById("bitcoinIconsgearOutline");
+    		if(bitcoinIconsgearOutline) {
+      			bitcoinIconsgearOutline.addEventListener("click", function (e) {
+        				// Add your code here
+      			});
+    		}
+    		
+    		var property1DefaultContainer = document.getElementById("property1DefaultContainer");
+    		if(property1DefaultContainer) {
+      			property1DefaultContainer.addEventListener("click", function () {
+        				var popup = document.getElementById("historicoHistorico1");
+        				if(!popup) return;
+        				var popupStyle = popup.style;
+        				if(popupStyle) {
+          					popupStyle.display = "flex";
+          					popupStyle.zIndex = 100;
+          					popupStyle.backgroundColor = "rgba(113, 113, 113, 0.3)";
+          					popupStyle.alignItems = "center";
+          					popupStyle.justifyContent = "center";
+        				}
+        				popup.setAttribute("closable", "");
+        				
+        				var onClick = popup.onClick || function(e) {
+          					if(e.target === popup && popup.hasAttribute("closable")) {
+            						popupStyle.display = "none";
+          					}
+        				};
+        				popup.addEventListener("click", onClick);
+      			});
+    		}
+    		
+    		var property1Variant2Container = document.getElementById("property1Variant2Container");
+    		if(property1Variant2Container) {
+      			property1Variant2Container.addEventListener("click", function (e) {
+        				// Add your code here
+      			});
+    		}
+    		
+    		var property1Variant3Container = document.getElementById("property1Variant3Container");
+    		if(property1Variant3Container) {
+      			property1Variant3Container.addEventListener("click", function (e) {
+        				// Add your code here
+      			});
+    		}
+    		
+    		var property1Variant4Container = document.getElementById("property1Variant4Container");
+    		if(property1Variant4Container) {
+      			property1Variant4Container.addEventListener("click", function (e) {
+        				// Add your code here
+      			});
+    		}</script></body>
+</html>

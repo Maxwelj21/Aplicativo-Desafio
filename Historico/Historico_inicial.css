@@ -1,0 +1,83 @@
+.historico-historico-4-child {
+    position: absolute;
+    top: -116px;
+    left: -124px;
+    backdrop-filter: blur(50px);
+    border-radius: 50%;
+    background-color: rgba(226, 137, 34, 0.93);
+    width: 782px;
+    height: 241px;
+}
+.historico-de {
+    margin: 0;
+}
+.historico-de-desafios-container {
+    position: absolute;
+    top: 37px;
+    left: 95px;
+    line-height: 100%;
+    font-weight: 800;
+    display: inline-block;
+    width: 279px;
+    height: 68px;
+}
+.historico-historico-4-item {
+    position: absolute;
+    top: 910px;
+    left: 0px;
+    border-radius: 10px;
+    background-color: #d3d2d2;
+    width: 533px;
+    height: 109px;
+}
+.usuario-icon {
+    position: absolute;
+    top: 0px;
+    left: calc(50% + 173.5px);
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+}
+.historico-historico-4-inner {
+    position: absolute;
+    top: 180px;
+    left: 32px;
+    border-radius: 20px;
+    background-color: #d9d9d9;
+    width: 472px;
+    height: 400px;
+}
+.aqui-ficara-a {
+    position: absolute;
+    top: 647px;
+    left: 26px;
+    line-height: 100%;
+    font-weight: 800;
+    display: inline-block;
+    width: 489px;
+    height: 152px;
+}
+.puxe-conversa-com {
+    position: absolute;
+    top: 306px;
+    left: 95px;
+    line-height: 100%;
+    font-weight: 800;
+    display: inline-block;
+    width: 326px;
+    height: 144px;
+}
+.historico-historico-4 {
+    width: 100%;
+    position: relative;
+    border-radius: 4px;
+    background-color: #efeeee;
+    height: 1019px;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: center;
+    font-size: 40px;
+    color: #000;
+    font-family: Poppins;
+}
+
